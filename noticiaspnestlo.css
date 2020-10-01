@@ -1,0 +1,62 @@
+li{
+display: inline-block;
+
+
+}
+header{
+    text-align: center;
+    background-color: lightgreen;
+    margin: 25px;
+}
+
+body{
+
+    background-color: lightsalmon;
+    text-decoration: none;
+
+}
+img{
+padding-left: 40mm;
+padding-top: 10mm;
+
+}
+footer{
+    text-align: center;
+    background-color: lightgreen;
+    margin: 25px;
+    background-color: lightgreen;
+}
+h1{ 
+
+    animation: titulo 1s ease-in alternate infinite;
+}
+@keyframes titulo{
+0%{
+    color: white;
+    letter-spacing: 2mm;
+
+}
+25%{
+    color: yellow;
+    letter-spacing: 3mm;
+
+     
+}
+50%{
+    color: red;
+    letter-spacing: 4mm;
+
+}
+ 100%{
+    color:black;
+    letter-spacing: 4mm;
+
+ }
+}
+#video{
+    margin-left: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
